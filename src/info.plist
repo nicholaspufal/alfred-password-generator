@@ -42,7 +42,7 @@
 	<key>createdby</key>
 	<string>Nicholas Pufal</string>
 	<key>description</key>
-	<string>A simple password generator that doesn't rely on having an active internet connection. It's simple, fast and efficient. By default it generates a password with 10 characters - but you can overwrite this setting by providing a number when calling it. The recipe for the passwords include lower case and upper case letters, numbers and a couple of symbols.</string>
+	<string>A simple password generator that doesn't rely on having an active internet connection. It's simple, fast and efficient. By default it generates a password with 15 characters - but you can overwrite this setting by providing a number when calling it. The recipe for the passwords include lower case and upper case letters, numbers and a couple of symbols.</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -65,33 +65,12 @@
 				<key>text</key>
 				<string>{query}</string>
 				<key>title</key>
-				<string>Copied password to the clipboard</string>
+				<string>Password copied to the clipboard</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
 			<string>E56804F4-1D53-403B-A800-8852FF2185F7</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>keyword</key>
-				<string>password</string>
-				<key>subtext</key>
-				<string>Default password length is 10 - provide an integer as argument to overwrite it</string>
-				<key>text</key>
-				<string>Password Generator</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>169A770C-1F88-47F2-9C04-B7310AC8B002</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -111,6 +90,27 @@
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
 			<string>6B46A416-12D2-49FF-90AB-6A265F56C7EC</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>password</string>
+				<key>subtext</key>
+				<string>Default password length is 15 - provide an integer as argument to overwrite it</string>
+				<key>text</key>
+				<string>Password Generator</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>169A770C-1F88-47F2-9C04-B7310AC8B002</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
