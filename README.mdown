@@ -8,6 +8,16 @@ By default it generates a password with 15 characters - but you can overwrite th
 
 The recipe for the passwords include lower case and upper case letters, numbers and a couple of symbols.
 
+## Installation
+
+Considering you have Alfred installed (and a Powerpack license), you just need to open [/bin/Password Generator.alfredworkflow](https://github.com/nicholaspufal/alfred-password-generator/blob/master/bin/Password%20Generator.alfredworkflow?raw=true)
+
+## Usage
+
+Just type `password` and press return - the new password will be available in your clipboard and you will also receive a system notification.
+
+If you want you can also specify the password length, e.g. `password 20`. The default password length is 15.
+
 ## Demonstration
 
 ![](password-generator.gif)
