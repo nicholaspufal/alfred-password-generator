@@ -1,0 +1,13 @@
+## Password Generator (Alfred workflow)
+
+Another Alfred workflow.
+
+A simple password generator that doesn't rely on having an active internet connection. It's simple, fast and efficient.
+
+By default it generates a password with 10 characters - but you can overwrite this setting by providing another length when calling it, e.g. `password 15`.
+
+The recipe for the passwords include lower case and upper case letters, numbers (1-10) and a couple of symbols.
+
+## Demonstration
+
+![](password-generator.gif)
